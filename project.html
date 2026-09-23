@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project — Griho Naksha</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <img src="images/logo.jpg" alt="Griho Naksha logo">
+      <span class="brand-text">
+        <span class="brand-name">Griho Naksha</span>
+        <span class="brand-tag">Architects and Engineers</span>
+      </span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">Menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#work">Work</a></li>
+      <li><a href="index.html#studio">Studio</a></li>
+      <li><a href="index.html#approach">Approach</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap detail" id="detailRoot">
+  <!-- projects-data.js + project.js এই অংশ ভরে দেবে -->
+  <p class="reveal">লোড হচ্ছে…</p>
+</main>
+
+<footer class="site-footer wrap">
+  <span>© <span id="year"></span> Griho Naksha</span>
+  <span>Dhaka, Bangladesh</span>
+</footer>
+
+<script src="projects-data.js"></script>
+<script src="project.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
