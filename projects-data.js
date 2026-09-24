@@ -23,14 +23,14 @@
 
 const PROJECTS = [
   {
-    id: "Md.Joshim-house",
-    title: "Md.Joshim-house",
-    location: "Gazipur",
+    id: "md.joshim-house",
+    title: "md.joshim-house",
+    location: "gazipur",
     year: "2026",
     category: "Residential — new build",
     image: "project-1.jpg",
     description: [
-      "Three storied building
+      "three storied building
       4.5 katha
       at ground floor _ total 7 rooms,
       each room have separate kitchin and toilet.
