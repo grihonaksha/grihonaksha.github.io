@@ -30,11 +30,11 @@ const PROJECTS = [
     category: "Residential — new build",
     image: "project-1.jpg",
     description: [
-      "three storied building
-      4.5 katha
-      at ground floor _ total 7 rooms,
-      each room have separate kitchin and toilet.
-      1st. & 2nd. floor_ each floor two unit"
+      "three storied building",
+      "4.5 katha",
+      "at ground floor _ total 7 rooms",
+      "each room have separate kitchin and toilet",
+      "1st. & 2nd. floor_ each floor two unit"
     ],
     gallery: []
   },
