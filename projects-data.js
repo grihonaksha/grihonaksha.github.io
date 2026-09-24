@@ -23,15 +23,19 @@
 
 const PROJECTS = [
   {
-    id: "kadam-house",
-    title: "Kadam House",
-    location: "Dhanmondi",
-    year: "2024",
+    id: "Md.Joshim-house",
+    title: "Md.Joshim House",
+    location: "Gazipur",
+    year: "2026",
     category: "Residential — new build",
     image: "project-1.jpg",
     description: [
-      "একটি পারিবারিক বাসভবন, যেখানে প্রতিটি ঘর সরাসরি বাগানের দিকে খোলা।",
-      "এখানে বিস্তারিত লেখা যোগ করুন — জমির আকার, নকশার ভাবনা, ব্যবহৃত উপকরণ, চ্যালেঞ্জ ও সমাধান।"
+      Three storied building
+      4.5 katha
+      at ground floor _ total 7 rooms,
+      each room have separate kitchin and toilet.
+      1st. & 2nd. floor_ each floor two unit 
+      
     ],
     gallery: []
   },
