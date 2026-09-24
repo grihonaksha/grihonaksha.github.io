@@ -39,6 +39,27 @@ img{ max-width:100%; display:block; }
 
 a{ color: inherit; }
 
+.btn{
+  display:inline-flex; align-items:center; gap:.5rem;
+  font-family: var(--font-head);
+  font-size: .92rem; font-weight: 500;
+  text-decoration:none;
+  padding: .85rem 1.6rem;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  transition: background .2s ease, color .2s ease, transform .2s ease;
+}
+.btn:hover{
+  background: var(--ink); color: var(--paper);
+  transform: translateY(-1px);
+}
+.btn-solid{
+  background: var(--ink); color: var(--paper);
+}
+.btn-solid:hover{
+  background: var(--brass); border-color: var(--brass); color: var(--paper);
+}
+
 h1,h2,h3{
   font-family: var(--font-head);
   font-weight: 500;
@@ -121,36 +142,50 @@ h1,h2,h3{
 
 /* ---------- hero ---------- */
 .hero{
-  padding: clamp(3rem,10vw,7rem) 0 clamp(2rem,6vw,4rem);
   position: relative;
+  overflow: hidden;
+  min-height: 78vh;
+  display:flex;
+  align-items:flex-end;
+  padding: clamp(5rem,14vw,7rem) 0 clamp(2.5rem,6vw,4rem);
 }
-.hero-grid{
-  display:grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: var(--gap);
-  align-items:end;
+.hero-video{
+  position:absolute; inset:0;
+  width:100%; height:100%;
+  object-fit: cover;
+  z-index:0;
+}
+.hero-overlay{
+  position:absolute; inset:0;
+  background: linear-gradient(180deg, rgba(26,26,24,0.25) 0%, rgba(26,26,24,0.35) 45%, rgba(26,26,24,0.78) 100%);
+  z-index:1;
+}
+.hero-content{
+  position:relative; z-index:2;
+  max-width: 62ch;
 }
 .hero-kicker{
   font-family: var(--font-head);
-  color: var(--stone);
+  color: var(--stone-light);
   font-size: .95rem;
   margin-bottom: 1.25rem;
 }
 .hero h1{
   font-size: clamp(2.4rem, 6vw, 4.6rem);
   line-height: 1.02;
+  color: var(--paper);
 }
-.hero-figure{
-  aspect-ratio: 4/5;
-  border: 1px solid var(--stone-light);
-  padding: 18px;
-}
-.hero-figure svg{ width:100%; height:100%; }
 .hero-foot{
   margin-top: 2.5rem;
-  display:flex; gap: var(--gap); flex-wrap:wrap;
-  font-size: .95rem; color: var(--stone);
-  max-width: 46ch;
+  display:flex; gap: var(--gap); flex-wrap:wrap; align-items:center;
+  font-size: .95rem; color: var(--paper-dim);
+}
+.hero-foot p{ max-width: 42ch; margin:0; }
+.hero .btn-solid{
+  background: var(--paper); color: var(--ink); border-color: var(--paper);
+}
+.hero .btn-solid:hover{
+  background: var(--brass); border-color: var(--brass); color: var(--paper);
 }
 
 /* ---------- section headers ---------- */
@@ -183,6 +218,7 @@ h1,h2,h3{
 .project{
   text-decoration:none;
   color: inherit;
+  display:block;
 }
 .project-photo{
   aspect-ratio: 5/4;
@@ -191,7 +227,15 @@ h1,h2,h3{
   background: var(--stone-light);
   display:flex; align-items:center; justify-content:center;
   cursor: pointer;
+  transition: box-shadow .3s ease;
 }
+.project:hover .project-photo{
+  box-shadow: 0 18px 34px -18px rgba(26,26,24,0.35);
+}
+.project-meta h3{
+  transition: color .2s ease;
+}
+.project:hover .project-meta h3{ color: var(--brass); }
 .project-photo img{
   width:100%; height:100%; object-fit:contain;
   transition: transform .5s ease;
@@ -213,6 +257,7 @@ h1,h2,h3{
 }
 
 /* ---------- studio / about ---------- */
+#studio{ background: var(--paper-dim); }
 .studio{
   display:grid;
   grid-template-columns: 0.9fr 1.1fr;
@@ -267,7 +312,7 @@ h1,h2,h3{
   font-family: var(--font-head);
   font-size: 1.15rem;
 }
-.contact-line a{ text-decoration:none; border-bottom:1px solid var(--ink); }
+.contact-line a{ text-decoration:none; }
 .contact-details{ font-size:.95rem; color: var(--stone); }
 .contact-details div{ padding: .9rem 0; border-top: 1px solid var(--stone-light); }
 .contact-details div:last-child{ border-bottom: 1px solid var(--stone-light); }
@@ -419,8 +464,6 @@ a:focus-visible, button:focus-visible{
 
 /* ---------- responsive ---------- */
 @media (max-width: 900px){
-  .hero-grid{ grid-template-columns: 1fr; }
-  .hero-figure{ order:-1; aspect-ratio: 16/9; }
   .studio{ grid-template-columns: 1fr; }
   .approach-list{ grid-template-columns: 1fr; }
   .contact-grid{ grid-template-columns: 1fr; }
@@ -449,4 +492,6 @@ a:focus-visible, button:focus-visible{
   html{ scroll-behavior:auto; }
   .reveal{ transition:none; opacity:1; transform:none; }
   .project-photo img{ transition:none; }
+  .hero-video{ display:none; }
+  .hero{ background-image:url('images/hero-poster.jpg'); background-size:cover; background-position:center; }
 }
