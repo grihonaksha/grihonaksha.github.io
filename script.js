@@ -93,8 +93,8 @@ function watermarkImg(img) {
     for (let y = -diag / 2; y < diag / 2; y += stepY) {
       const off = row % 2 ? stepX / 2 : 0;
       for (let x = -diag / 2 - stepX; x < diag / 2; x += stepX) {
-        ctx.fillStyle = 'rgba(0,0,0,0.28)';       ctx.fillText(text, x + off + 2, y + 2);
-        ctx.fillStyle = 'rgba(255,255,255,0.42)'; ctx.fillText(text, x + off, y);
+        ctx.fillStyle = 'rgba(0,0,0,0.12)';       ctx.fillText(text, x + off + 2, y + 2);
+        ctx.fillStyle = 'rgba(255,255,255,0.22)'; ctx.fillText(text, x + off, y);
       }
       row++;
     }
