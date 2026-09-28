@@ -2,7 +2,11 @@
 // (so adding a project there is enough — no HTML editing needed)
 function renderWorkGrid() {
   const grid = document.getElementById('workGrid');
-  if (!grid || typeof PROJECTS === 'undefined') return;
+  if (!grid) return;
+  if (typeof PROJECTS === 'undefined') {
+    grid.innerHTML = '<p style="grid-column:1/-1;color:#b3261e">Project data could not be loaded — check projects-data.js for a missing quote or comma.</p>';
+    return;
+  }
 
   grid.innerHTML = PROJECTS.map(p => {
     const base = p.image.replace(/\.[^.]+$/, '');
