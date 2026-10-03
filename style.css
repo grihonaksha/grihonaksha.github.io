@@ -97,7 +97,7 @@ h1,h2,h3{
 }
 .site-nav .wrap{
   display:flex; align-items:center; justify-content:space-between;
-  height: 100px;
+  height: 150px;
 }
 .brand{
   font-family: var(--font-head);
@@ -112,7 +112,7 @@ h1,h2,h3{
   display: block;
 }
 .brand-logo-only img{
-  height: 80px;
+  height: 140px;
 }
 @media (max-width: 700px){
   .brand-logo-only img{ height: 60px; }
