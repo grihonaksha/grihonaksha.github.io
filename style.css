@@ -110,7 +110,7 @@ h1,h2,h3{
   line-height: 1.15;
 }
 .brand img{
-  height: 48px;
+  height: 150px;
   width: auto;
   display: block;
 }
@@ -127,13 +127,13 @@ h1,h2,h3{
   position: absolute;
   top: 50%; left: 0;
   transform: translateY(-50%);
-  height: 120px;
+  height: 150px;
   width: auto;
   max-width: none;
 }
 @media (max-width: 700px){
   .brand-float{ width: 120px; }
-  .brand-float img{ height: 84px; }
+  .brand-float img{ height: 150px; }
 }
 .brand-text{
   display:flex; flex-direction: column; gap: 3px;
