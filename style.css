@@ -115,7 +115,7 @@ h1,h2,h3{
   height: 200px;
 }
 @media (max-width: 700px){
-  :root{ --nav-h: 80px; }
+  :root{ --nav-h: 100px; }
   .brand img,
   .brand-logo-only img{ height: 64px; }
   .brand{ gap: .5rem; }
