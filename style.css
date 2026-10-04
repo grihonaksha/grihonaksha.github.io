@@ -91,7 +91,7 @@ h1,h2,h3{
 /* ---------- nav ---------- */
 .site-nav{
   position: sticky; top:0; z-index: 20;
-  background: rgba(0,90,15,10);
+  background: rgba(242,238,230,0.5);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--stone-light);
 }
