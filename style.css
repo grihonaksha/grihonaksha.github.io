@@ -107,15 +107,15 @@ h1,h2,h3{
   line-height: 1.15;
 }
 .brand img{
-  height: 200px;
+  height: 180px;
   width: auto;
   display: block;
 }
 .brand-logo-only img{
-  height: 200px;
+  height: 180px;
 }
 @media (max-width: 700px){
-  :root{ --nav-h: 100px; }
+  :root{ --nav-h: 80px; }
   .brand img,
   .brand-logo-only img{ height: 64px; }
   .brand{ gap: .5rem; }
