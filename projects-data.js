@@ -23,8 +23,8 @@
 
 const PROJECTS = [
   {
-    id: "md-joshim-house",
-    title: "Md. Joshim House",
+    id: "Md.Joshim House",
+    title: "Md.Joshim House",
     location: "Gazipur",
     year: "2026",
     category: "Residential — new build",
@@ -37,11 +37,11 @@ const PROJECTS = [
     gallery: []
   },
   {
-    id: "uttara-library",
-    title: "Uttara Community Library",
-    location: "Uttara",
-    year: "2023",
-    category: "Civic — new build",
+    id: "Triplex House",
+    title: "Triplex House",
+    location: "Feni",
+    year: "2020",
+    category: "Modern Home",
     image: "project-2.jpg",
     description: [
       "একটি কমিউনিটি লাইব্রেরি, প্রাকৃতিক আলো ও বাতাস চলাচলের ওপর গুরুত্ব দিয়ে নকশা করা।",
@@ -50,11 +50,11 @@ const PROJECTS = [
     gallery: []
   },
   {
-    id: "old-town-courtyard",
-    title: "Old Town Courtyard",
-    location: "Old Dhaka",
-    year: "2023",
-    category: "Residential — renovation",
+    id: "10 Storied Appartment Building",
+    title: "10 Storied Appartment Buildin",
+    location: "Mirpur",
+    year: "2024",
+    category: "Appartment Building",
     image: "project-3.jpg",
     description: [
       "পুরনো ঢাকার একটি ঐতিহ্যবাহী বাড়ির সংস্কার, মূল কাঠামো রেখে ভেতরের অংশ নতুন করে সাজানো।",
