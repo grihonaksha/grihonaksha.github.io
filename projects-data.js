@@ -51,7 +51,7 @@ const PROJECTS = [
   },
   {
     id: "10 Storied Appartment Building",
-    title: "10 Storied Appartment Buildin",
+    title: "10 Storied Appartment Building",
     location: "Mirpur",
     year: "2024",
     category: "Appartment Building",
@@ -63,11 +63,11 @@ const PROJECTS = [
     gallery: []
   },
   {
-    id: "riverside-studio",
-    title: "Riverside Studio",
-    location: "Keraniganj",
-    year: "2022",
-    category: "Studio — new build",
+    id: "12 Storied building",
+    title: "Heaven Tower",
+    location: "Gulshan",
+    year: "On going",
+    category: "High-rise Building",
     image: "project-4.jpg",
     description: [
       "নদীর ধারে একটি শিল্পীর স্টুডিও, জলের প্রতিফলিত আলোকে কাজে লাগিয়ে নকশা করা।",
@@ -76,10 +76,10 @@ const PROJECTS = [
     gallery: []
   },
   {
-    id: "banani-clinic",
-    title: "Banani Clinic",
-    location: "Banani",
-    year: "2022",
+    id: "King stone Hospital",
+    title: "King stone Hospital",
+    location: "King stone Hospital",
+    year: "2021",
     category: "Institutional — interior",
     image: "project-5.jpg",
     description: [
