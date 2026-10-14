@@ -107,7 +107,7 @@ const PROJECTS = [
     location: "Aftab Nagar",
     year: "2024",
     category: "Residential — multi-unit",
-    image: "project-7.jpg",
+    image: "project-11.jpg",
     description: [
     ],
     gallery: []
