@@ -80,7 +80,7 @@ const PROJECTS = [
     title: "King stone Hospital",
     location: "King stone Hospital",
     year: "2021",
-    category: "Institutional — interior",
+    category: "Hospital Building",
     image: "project-5.jpg",
     description: [
       "একটি ছোট ক্লিনিকের অন্দরসজ্জা, শান্ত ও আশ্বস্তকর পরিবেশ তৈরির লক্ষ্যে।",
@@ -91,7 +91,7 @@ const PROJECTS = [
   {
     id: "green-terrace",
     title: "Green Terrace Apartments",
-    location: "Bashundhara",
+    location: "Dakshin Khan",
     year: "2021",
     category: "Residential — multi-unit",
     image: "project-6.jpg",
@@ -100,18 +100,28 @@ const PROJECTS = [
       "এখানে বিস্তারিত লেখা যোগ করুন।"
     ],
     gallery: []
+  },
+  {
+    id: "rajuk sheet",
+    title: "RAJUK SHEET",
+    location: "Aftab Nagar",
+    year: "2024",
+    category: "Residential — multi-unit",
+    image: "project-7.jpg",
+    description: [
+    ],
+    gallery: []
   }
 ];
-
 // নতুন প্রজেক্ট যোগ করার নমুনা — এই আকারে একটা অবজেক্ট বানিয়ে
 // PROJECTS.push({...}) দিয়ে যোগ করতে পারেন, অথবা উপরের তালিকায়
 // শেষ এন্ট্রির পর কমা দিয়ে সরাসরি বসিয়ে দিতে পারেন:
 //
 // PROJECTS.push({
 //   id: "notun-project",
-//   title: "প্রজেক্টের নাম",
-//   location: "এলাকার নাম",
-//   year: "2026",
+//   title: "RAJUK SHEET",
+//   location: "Aftab Nagar",
+//   year: "2024",
 //   category: "Residential — new build",
 //   image: "project-7.jpg",
 //   description: [
