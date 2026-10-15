@@ -112,7 +112,19 @@ const PROJECTS = [
     ],
     gallery: []
   }
-];
+],
+     {
+    id: "APL",
+    title: "PLANNING PERMIT",
+    location: "AUK PARA",
+    year: "2024",
+    category: "A-3",
+    image: "project-8.jpg",
+    description: [
+    ],
+    gallery: []
+  }
+],
 // নতুন প্রজেক্ট যোগ করার নমুনা — এই আকারে একটা অবজেক্ট বানিয়ে
 // PROJECTS.push({...}) দিয়ে যোগ করতে পারেন, অথবা উপরের তালিকায়
 // শেষ এন্ট্রির পর কমা দিয়ে সরাসরি বসিয়ে দিতে পারেন:
