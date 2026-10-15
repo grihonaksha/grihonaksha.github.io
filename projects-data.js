@@ -44,8 +44,8 @@ const PROJECTS = [
     category: "Modern Home",
     image: "project-2.jpg",
     description: [
-      "একটি কমিউনিটি লাইব্রেরি, প্রাকৃতিক আলো ও বাতাস চলাচলের ওপর গুরুত্ব দিয়ে নকশা করা।",
-      "এখানে বিস্তারিত লেখা যোগ করুন।"
+      "",
+      ""
     ],
     gallery: []
   },
@@ -57,8 +57,8 @@ const PROJECTS = [
     category: "Appartment Building",
     image: "project-3.jpg",
     description: [
-      "পুরনো ঢাকার একটি ঐতিহ্যবাহী বাড়ির সংস্কার, মূল কাঠামো রেখে ভেতরের অংশ নতুন করে সাজানো।",
-      "এখানে বিস্তারিত লেখা যোগ করুন।"
+      "",
+      ""
     ],
     gallery: []
   },
@@ -70,8 +70,8 @@ const PROJECTS = [
     category: "High-rise Building",
     image: "project-4.jpg",
     description: [
-      "নদীর ধারে একটি শিল্পীর স্টুডিও, জলের প্রতিফলিত আলোকে কাজে লাগিয়ে নকশা করা।",
-      "এখানে বিস্তারিত লেখা যোগ করুন।"
+      "",
+      ""
     ],
     gallery: []
   },
@@ -83,8 +83,8 @@ const PROJECTS = [
     category: "Hospital Building",
     image: "project-5.jpg",
     description: [
-      "একটি ছোট ক্লিনিকের অন্দরসজ্জা, শান্ত ও আশ্বস্তকর পরিবেশ তৈরির লক্ষ্যে।",
-      "এখানে বিস্তারিত লেখা যোগ করুন।"
+      "",
+      ""
     ],
     gallery: []
   },
@@ -96,8 +96,8 @@ const PROJECTS = [
     category: "Residential — multi-unit",
     image: "project-6.jpg",
     description: [
-      "একটি বহুতল আবাসিক ভবন, প্রতিটি ফ্ল্যাটের সাথে সবুজ টেরাস যুক্ত।",
-      "এখানে বিস্তারিত লেখা যোগ করুন।"
+      "",
+      ""
     ],
     gallery: []
   },
@@ -141,6 +141,17 @@ const PROJECTS = [
     year: "2024",
     category: "A-3",
     image: "project-10.jpg",
+    description: [
+    ],
+    gallery: []
+  },
+   {
+    id: "monir",
+    title: "Monir's House",
+    location: "Akran",
+    year: "2024",
+    category: "Appartment Building",
+    image: "project-11.jpg",
     description: [
     ],
     gallery: []
