@@ -122,6 +122,28 @@ const PROJECTS = [
     description: [
     ],
     gallery: []
+  },
+    {
+    id: "APL",
+    title: "PLANNING PERMIT",
+    location: "SENPARA",
+    year: "2024",
+    category: "AFFORDABLE HOUSING",
+    image: "project-9.jpg",
+    description: [
+    ],
+    gallery: []
+  },
+    {
+    id: "APL",
+    title: "PLANNING PERMIT",
+    location: "AFTAB NAGAR",
+    year: "2024",
+    category: "A-3",
+    image: "project-10.jpg",
+    description: [
+    ],
+    gallery: []
   }
    ];
 
