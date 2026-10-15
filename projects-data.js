@@ -111,9 +111,8 @@ const PROJECTS = [
     description: [
     ],
     gallery: []
-  }
-],
-     {
+  },
+ {
     id: "APL",
     title: "PLANNING PERMIT",
     location: "AUK PARA",
